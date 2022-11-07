@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.App {
+  min-height: 100vh;
+  background-color: lightgray;
+}
+#app_field {
+  margin: 0 auto;
+  width: calc(100vw - 300px);
+  height: 100%;
+  display: flex;
+}

@@ -1,0 +1,22 @@
+header {
+    height: auto;
+    width: 100%;
+    background-color: rgb(24,24,24);
+}
+#header {
+    width: calc(100vw - 300px);
+    margin: 0 auto;
+    height: 120px;
+    color: lightgray;
+    padding-top: 10px;
+    display: flex;
+}
+h2 {
+    margin-bottom: 10px;
+}
+h4 {
+    margin-bottom: 4px;
+}
+#block {
+    margin-right: 3em;
+}

@@ -1,0 +1,30 @@
+#ISSPosition {
+  background-color: rgb(182, 182, 182);
+  width: 100%;
+  height: 700px;
+  padding: 10px;
+}
+.map-container {
+  width: 100%;
+  height: calc(700px - 60px);
+}
+.circle {
+  z-index: 10000;
+  position: absolute;
+  margin-top: calc(60px + 250px);
+  margin-left: 50%;
+  transform: rotate(45deg);
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 13px;
+  background-color: rgba(145, 145, 145, 0.1);
+}
+svg {
+  color: black;
+  height: 20px;
+  width: 20px;
+}
